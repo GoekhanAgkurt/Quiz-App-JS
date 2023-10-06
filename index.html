@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./javascript/index.js"></script>
+    <script src="./javascript/index.js" defer></script>
     <link rel="stylesheet" href="./styles.css" />
 
     <title>Quiz-App</title>
@@ -24,17 +24,17 @@
               In the Kingdom Heart series who provides the english voice for
               Master Eraqus?
             </h2>
-            <button class="card__button-answer" type="button">
+            <button class="card__button-answer" type="button" data-js="button-answer">
               Show answer
             </button>
-            <p class="card__answer">Mark Hamill</p>
+            <p class="card__answer" data-js="card-answer">Mark Hamill</p>
             <ul class="card__tag-list">
               <li class="card__tag-list-item">#kingdomheart</li>
               <li class="card__tag-list-item">#mastereraqus</li>
               <li class="card__tag-list-item">#english voices</li>
             </ul>
             <div class="card__button-bookmark">
-              <button class="bookmark" aria-label="bookmark" type="button" >
+              <button class="bookmark" aria-label="bookmark" type="button" data-js="bookmark">
                 <svg
                   class="bookmark__icon"
                   xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@
               Which former US president was nicknamed &quot;Teddy&quot; after he
               refused to shoot a defenseless black bear?
             </h2>
-            <button class="card__button-answer" type="button">
+            <button class="card__button-answer" type="button" data-js="button-answer";> 
               Show answer
             </button>
             <p class="card__answer">Theodore Roosevelt</p>
@@ -104,7 +104,7 @@
               <li class="card__tag-list-item">#teddybear</li>
             </ul>
             <div class="card__button-bookmark">
-              <button class="bookmark" aria-label="bookmark" type="button">
+              <button class="bookmark" aria-label="bookmark" type="button" data-js="bookmark">
                 <svg
                   class="bookmark__icon"
                   xmlns="http://www.w3.org/2000/svg"

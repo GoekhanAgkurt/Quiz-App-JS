@@ -13,6 +13,13 @@ bookmark.addEventListener("click", () => {
 
 buttonAnswer.addEventListener("click", () => {
     answer.classList.toggle("card__answer");
+
+    if (buttonAnswer.textContent === "Hide answer" ){
+        buttonAnswer.textContent = "Show answer" 
+    }
+    else{
+        buttonAnswer.textContent = "Hide answer"
+    }
     
 })
 

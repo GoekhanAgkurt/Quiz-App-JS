@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 400px;
+    margin: 160px auto;
+    gap: 10px;
+}
+
+.form__space-info {
+    font-size: 13px;
+    margin-top: -10px;
+    color: gray;
+}
